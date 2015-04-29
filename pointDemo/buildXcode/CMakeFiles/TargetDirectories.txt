@@ -1,0 +1,3 @@
+/Users/mloayza/projects/openGL/easyOpenGL-workspace/pointDemo/buildXcode/CMakeFiles/ALL_BUILD.dir
+/Users/mloayza/projects/openGL/easyOpenGL-workspace/pointDemo/buildXcode/CMakeFiles/ZERO_CHECK.dir
+/Users/mloayza/projects/openGL/easyOpenGL-workspace/pointDemo/buildXcode/CMakeFiles/pointDemo.dir

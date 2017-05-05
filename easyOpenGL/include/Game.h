@@ -24,6 +24,7 @@ namespace  EasyOpenGL {
         bool isFullScreen() const;
         void setScreenDimension(unsigned screenWidth, unsigned screenHeight, bool fullScreen);
         void setScreenPosition(unsigned positionX, unsigned positionY);
+        void setScreenBackgroundColor(float const * screenBackgroundColor);
         std::vector<GameComponent*>& getComponents();
 
         virtual void initialize();

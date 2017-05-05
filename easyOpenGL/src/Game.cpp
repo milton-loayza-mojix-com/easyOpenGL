@@ -72,6 +72,10 @@ namespace EasyOpenGL
         this->positionX = positionX;
         this->positionY = positionY;
     }
+    void Game::setScreenBackgroundColor(float const * screenBackgroundColor)
+    {
+        this->screenBackgroundColor = screenBackgroundColor;
+    }
 
     std::vector<GameComponent*>& Game::getComponents()
     {

@@ -1,4 +1,3 @@
-#include "EasyOpenGL.h"
 #include "CubeDemo.h"
 
 using namespace EasyOpenGL;

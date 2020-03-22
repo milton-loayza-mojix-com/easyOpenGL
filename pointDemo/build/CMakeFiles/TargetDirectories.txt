@@ -1,1 +1,3 @@
-/Users/mloayza/projects/openGL/easyOpenGL-workspace/pointDemo/build/CMakeFiles/pointDemo.dir
+/Users/milton/test/openGL/pointDemo/build/CMakeFiles/rebuild_cache.dir
+/Users/milton/test/openGL/pointDemo/build/CMakeFiles/edit_cache.dir
+/Users/milton/test/openGL/pointDemo/build/CMakeFiles/pointDemo.dir

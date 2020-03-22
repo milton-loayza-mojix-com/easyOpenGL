@@ -2,7 +2,7 @@
 // Created by Milton Loayza on 4/27/15.
 //
 
-#include "square.h"
+#include "Square.h"
 
 Square::Square()
 :vertexBufferObject(0), vertexArrayObject(0), shaderProgram(0)
@@ -18,7 +18,7 @@ Square::~Square() {
 void Square::initialize() {
 
     //******  LOAD AND COMPILE SHADERs  ********/
-    std::string path = "/Users/mloayza/projects/openGL/easyOpenGL-workspace/example2d/";
+    std::string path = "/Users/milton/test/openGL/example2d/";
     shaderProgram = glCreateProgram();
     ShaderBuilder* shaderBuilder = new ShaderBuilder();
     shaderBuilder->addFromFile(GL_VERTEX_SHADER, path + "shaders/square.vert");

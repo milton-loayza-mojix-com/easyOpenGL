@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libeasyOpenGL.a  CMakeFiles/easyOpenGL.dir/src/ColorHelper.cpp.o CMakeFiles/easyOpenGL.dir/src/Game.cpp.o CMakeFiles/easyOpenGL.dir/src/GameComponent.cpp.o CMakeFiles/easyOpenGL.dir/src/GameException.cpp.o CMakeFiles/easyOpenGL.dir/src/ShaderBuilder.cpp.o CMakeFiles/easyOpenGL.dir/src/Utility.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libeasyOpenGL.a

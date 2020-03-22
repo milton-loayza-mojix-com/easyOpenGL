@@ -3,13 +3,14 @@ project(cubeDemo)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(PATH_WORKSPACE /Users/mloayza/projects/openGL/easyOpenGL-workspace)
+set(PATH_WORKSPACE /Users/milton/test/openGL)
 set(SOURCE_FILES main.cpp CubeDemo.cpp CubeDemo.h)
 
 include_directories (
-    ${PATH_WORKSPACE}/external/gl3w/include
-    ${PATH_WORKSPACE}/external/glm
-    ${PATH_WORKSPACE}/easyOpenGL/include
+        ${PATH_WORKSPACE}/external/gl3w/include
+        ${PATH_WORKSPACE}/external/glfw/include
+        ${PATH_WORKSPACE}/external/glm
+        ${PATH_WORKSPACE}/easyOpenGL/include
 )
 
 link_directories (
@@ -21,4 +22,4 @@ link_directories (
 
 add_executable(cubeDemo ${SOURCE_FILES})
 
-target_link_libraries (cubeDemo glfw gl3w CoreFoundation easyOpenGL)
+target_link_libraries (cubeDemo glfw.3 gl3w "-framework CoreFoundation" easyOpenGL)

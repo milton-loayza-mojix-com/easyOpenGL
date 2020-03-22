@@ -1,4 +1,3 @@
-#include "EasyOpenGL.h"
 #include "FourTriangle.h"
 
 using namespace EasyOpenGL;

@@ -1,4 +1,3 @@
-#include "EasyOpenGL.h"
 #include "PointDemo.h"
 
 using namespace EasyOpenGL;

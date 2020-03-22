@@ -19,7 +19,7 @@ PointDemo::~PointDemo()
 }
 
 void PointDemo::initialize() {
-    std::string path = "/Users/mloayza/projects/openGL/easyOpenGL-workspace/pointDemo/";
+    std::string path = "/Users/milton/test/openGL/pointDemo/";
     ShaderBuilder* shaderBuilder = new ShaderBuilder();
     shaderBuilder->addFromFile(GL_VERTEX_SHADER, path + "shaders/PointDemo.vert");
     shaderBuilder->addFromFile(GL_FRAGMENT_SHADER, path + "shaders/PointDemo.frag");

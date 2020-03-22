@@ -74,7 +74,7 @@ void FourTriangle::initialize() {
     glBindVertexArray(vertexArrayObject);
 
 
-    std::string path = "/Users/mloayza/projects/openGL/easyOpenGL-workspace/fourTriangle/";
+    std::string path = "/Users/milton/test/openGL/fourTriangle/";
     shaderProgram = glCreateProgram();
     ShaderBuilder* shaderBuilder = new ShaderBuilder();
 

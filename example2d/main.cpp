@@ -1,4 +1,3 @@
-#include "EasyOpenGL.h"
 #include "Square.h"
 
 using namespace EasyOpenGL;

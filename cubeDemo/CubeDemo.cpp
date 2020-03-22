@@ -23,7 +23,7 @@ CubeDemo::~CubeDemo()
 
 void CubeDemo::initialize()
 {
-    std::string path = "/Users/mloayza/projects/openGL/easyOpenGL-workspace/cubeDemo/";
+    std::string path = "/Users/milton/test/openGL/cubeDemo/";
     ShaderBuilder* shaderBuilder = new ShaderBuilder();
     shaderBuilder->addFromFile(GL_VERTEX_SHADER, path + "shaders/CubeDemo.vert");
     shaderBuilder->addFromFile(GL_FRAGMENT_SHADER, path + "shaders/CubeDemo.frag");

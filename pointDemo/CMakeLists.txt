@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 project(pointDemo)
-set(PATH_WORKSPACE /Users/mloayza/projects/openGL/easyOpenGL-workspace)
+set(PATH_WORKSPACE /Users/milton/test/openGL)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
@@ -22,4 +22,4 @@ link_directories (
 
 add_executable(pointDemo ${SOURCE_FILES})
 
-target_link_libraries (pointDemo glfw gl3w CoreFoundation easyOpenGL)
+target_link_libraries (pointDemo glfw.3 gl3w "-framework CoreFoundation" easyOpenGL)

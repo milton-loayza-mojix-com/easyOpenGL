@@ -19,7 +19,7 @@ ColoredTriangleDemo::~ColoredTriangleDemo()
 }
 
 void ColoredTriangleDemo::initialize() {
-    std::string path = "/Users/mloayza/projects/openGL/easyOpenGL-workspace/triangleDemo/";
+    std::string path = "/Users/milton/test/openGL/triangleDemo/";
     ShaderBuilder* shaderBuilder = new ShaderBuilder();
     shaderBuilder->addFromFile(GL_VERTEX_SHADER, path + "shaders/ColoredTriangleDemo.vert");
     shaderBuilder->addFromFile(GL_FRAGMENT_SHADER, path + "shaders/ColoredTriangleDemo.frag");
